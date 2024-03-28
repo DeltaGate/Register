@@ -1,0 +1,18 @@
+Project: Cash Register.
+
+Planned Features:
+
+Store Balanece
+End of day cashup
+Searching items via catagory
+Full GUI interface with button menus to access via touch method
+Ability to enter item codes to find items if known
+ability to give discounts based on codes or if requested by user
+Stock tracking
+Receipt tracking
+
+Planned Tech Stack Usage:
+
+C#
+Microsoft SQL Server
+WPF
