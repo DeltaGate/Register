@@ -16,3 +16,18 @@ Planned Tech Stack Usage:
 C#
 Microsoft SQL Server
 WPF
+
+
+Assumptions:
+
+This system will have a scanner system attached that will know how to interface with it, assist in scanning items stright into device ect.
+
+
+
+Planned Interface:
+
+3 Column Design -
+
+- Main recipt section, keeps track of goods scanned, discounts ect and gives overall price
+- button control section, allows user input via touch controls
+- extra button section, access to alt functions such as discount application and viewing items via catagorys

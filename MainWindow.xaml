@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Register"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1050" Width="1400">
     <Grid>
+
+        <!-- Top Control Bar -->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!-- Content Pane -->
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Column="0" Fill="Purple"></Rectangle>
+            <Rectangle Grid.Column="1" Fill="blue"></Rectangle>
+            <Button Grid.Column="1" Content="1" HorizontalAlignment="Left" Margin="131,71,0,0" VerticalAlignment="Top" Height="78" Width="119" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="2" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="3" HorizontalAlignment="Left" Margin="453,71,0,0" VerticalAlignment="Top" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="4" HorizontalAlignment="Left" Margin="130,195,0,0" VerticalAlignment="Top" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="5" HorizontalAlignment="Left" Margin="292,195,0,0" VerticalAlignment="Top" Height="78" Width="119" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="6" HorizontalAlignment="Left" Margin="452,195,0,0" VerticalAlignment="Top" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="7" HorizontalAlignment="Left" Margin="130,0,0,0" VerticalAlignment="Center" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="9" HorizontalAlignment="Left" Margin="454,0,0,0" VerticalAlignment="Center" Height="78" Width="119" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="0" HorizontalAlignment="Center" Margin="0,451,0,0" VerticalAlignment="Top" Height="78" Width="120" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="Confirm" HorizontalAlignment="Left" Margin="70,566,0,0" VerticalAlignment="Top" Height="134" Width="180" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+            <Button Grid.Column="1" Content="Delete" HorizontalAlignment="Left" Margin="452,566,0,0" VerticalAlignment="Top" Height="134" Width="180" RenderTransformOrigin="0.521,0.539" Click="Button_Click" FontSize="36"/>
+        </Grid>
+
+        <Rectangle Grid.Row="0" Fill="red"></Rectangle>
+
+
+
+
 
     </Grid>
 </Window>
