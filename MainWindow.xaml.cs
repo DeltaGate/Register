@@ -21,6 +21,8 @@ namespace Register
     public partial class MainWindow : Window
     {
         string price;
+        Double priceOverall = 0.00;
+        int discountAmmount = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -92,8 +94,9 @@ namespace Register
 
         private void btnEnter_Click(object sender, RoutedEventArgs e)
         {
-            price = price + btn0.Content;
-            priceCount.Text = price;
+            priceOverall = priceOverall + Convert.ToDouble(price);
+            priceCount.Text = priceOverall.ToString();
+            price = price.Substring(0, 0);
         }
 
         private void btnDel_Click(object sender, RoutedEventArgs e)
@@ -112,6 +115,17 @@ namespace Register
         {
             price = price.Substring(0, price.Length - 1);
             priceCount.Text = price;
+        }
+
+        // Basic Logic for applying a discount to overall price, needs amending to make user control more clear and to disallow control errors as its currently
+        // quite confusing to use.
+
+        private void btnDiscount_Click(object sender, RoutedEventArgs e)
+        {
+            discountAmmount = Convert.ToInt32(priceCount.Text);
+            priceOverall = priceOverall - ((priceOverall * discountAmmount) / 100);
+            priceCount.Text = priceOverall.ToString();
+            price = price.Substring(0, 0);
         }
     }
 }
