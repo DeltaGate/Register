@@ -29,7 +29,7 @@ namespace Register
         }
 
         
-        // Button Controls
+        // Button Controls & action logic
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
@@ -96,7 +96,12 @@ namespace Register
         {
             priceOverall = priceOverall + Convert.ToDouble(price);
             priceCount.Text = priceOverall.ToString();
+            Label newLabel = new Label();
+            newLabel.FontSize = 35;
+            newLabel.Content = "  £ " + price;
+            receiptList.Children.Add(newLabel);
             price = price.Substring(0, 0);
+
         }
 
         private void btnDel_Click(object sender, RoutedEventArgs e)
@@ -123,7 +128,17 @@ namespace Register
         private void btnDiscount_Click(object sender, RoutedEventArgs e)
         {
             discountAmmount = Convert.ToInt32(priceCount.Text);
-            priceOverall = priceOverall - ((priceOverall * discountAmmount) / 100);
+            double heldNum = (priceOverall * discountAmmount) / 100;
+            string heldNumConvert = heldNum.ToString();
+            Label newLabel = new Label();
+            newLabel.FontSize = 35;
+            newLabel.Content = "  Discount % " + priceCount.Text;
+            receiptList.Children.Add(newLabel);
+                Label newLabel1 = new Label();
+                newLabel1.FontSize = 35;
+                newLabel1.Content = "  - £ " + heldNumConvert;
+                receiptList.Children.Add(newLabel1);
+                priceOverall = priceOverall - ((priceOverall * discountAmmount) / 100);
             priceCount.Text = priceOverall.ToString();
             price = price.Substring(0, 0);
         }

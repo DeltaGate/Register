@@ -41,6 +41,7 @@
             <Button Grid.Column="1" Name="btnDiscount" Content="Discount" HorizontalAlignment="Left" Margin="44,29,0,0" VerticalAlignment="Top" Height="78" Width="184" RenderTransformOrigin="0.521,0.539" Click="btnDiscount_Click" FontSize="24"/>
             <Button Grid.Column="1" Name="btnItemSearch" Content="Item Search" HorizontalAlignment="Left" Margin="260,29,0,0" VerticalAlignment="Top" Height="78" Width="184" RenderTransformOrigin="0.521,0.539" Click="btn1_Click" FontSize="24"/>
             <Button Grid.Column="1" Name="btnCatagorySearch" Content="Catagory Search" HorizontalAlignment="Left" Margin="476,29,0,0" VerticalAlignment="Top" Height="78" Width="184" RenderTransformOrigin="0.521,0.539" Click="btn1_Click" FontSize="24"/>
+            <StackPanel Name="receiptList"/>
         </Grid>
 
         <Rectangle Grid.Row="0" Fill="red"></Rectangle>
