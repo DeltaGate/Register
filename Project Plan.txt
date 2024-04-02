@@ -4,12 +4,12 @@ Planned Features:
 
 Store Balanece
 End of day cashup
-Searching items via catagory
+Searching items via catagory - in progress
 Full GUI interface with button menus to access via touch method - In progress
 Ability to enter item codes to find items if known
-ability to give discounts based on codes or if requested by user
+ability to give discounts based on codes or if requested by user - in progress
 Stock tracking
-Receipt tracking
+Receipt tracking - in progress
 
 Planned Tech Stack Usage:
 

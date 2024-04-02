@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="Catagorys" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="362,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-gb" Text="Nerd"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="157" Margin="73,53,0,0" VerticalAlignment="Top" Width="216" Source="/bakery.png"/>
+        <Image HorizontalAlignment="Left" Height="161" Margin="490,46,0,0" VerticalAlignment="Top" Width="216" Source="/fruits.jpg"/>
+        <Image HorizontalAlignment="Left" Height="133" Margin="73,268,0,0" VerticalAlignment="Top" Width="220" Source="/vegetables.jpg"/>
 
     </Grid>
 </Window>
