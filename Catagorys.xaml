@@ -10,6 +10,7 @@
         <Image HorizontalAlignment="Left" Height="157" Margin="73,53,0,0" VerticalAlignment="Top" Width="216" Source="/bakery.png"/>
         <Image HorizontalAlignment="Left" Height="161" Margin="490,46,0,0" VerticalAlignment="Top" Width="216" Source="/fruits.jpg"/>
         <Image HorizontalAlignment="Left" Height="133" Margin="73,268,0,0" VerticalAlignment="Top" Width="220" Source="/vegetables.jpg"/>
+        <Image HorizontalAlignment="Left" Height="119" Margin="498,270,0,0" VerticalAlignment="Top" Width="203" Source="/tech.jpg"/>
 
     </Grid>
 </Window>
