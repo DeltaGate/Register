@@ -31,3 +31,7 @@ Planned Interface:
 - Main recipt section, keeps track of goods scanned, discounts ect and gives overall price
 - button control section, allows user input via touch controls
 - extra button section, access to alt functions such as discount application and viewing items via catagorys
+
+Sub menus - 
+
+- catatgorys, allows user to select from items by catagory to add price.
