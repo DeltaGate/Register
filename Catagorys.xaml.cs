@@ -23,5 +23,29 @@ namespace Register
         {
             InitializeComponent();
         }
+
+        private void Fruit_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CatagorySelected catagorySelected = new CatagorySelected();
+            catagorySelected.Show();
+        }
+
+        private void Veg_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CatagorySelected catagorySelected = new CatagorySelected();
+            catagorySelected.Show();
+        }
+
+        private void Backery_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CatagorySelected catagorySelected = new CatagorySelected();
+            catagorySelected.Show();
+        }
+
+        private void Tech_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CatagorySelected catagorySelected = new CatagorySelected();
+            catagorySelected.Show();
+        }
     }
 }
