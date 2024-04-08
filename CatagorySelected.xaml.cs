@@ -22,6 +22,12 @@ namespace Register
         public CatagorySelected()
         {
             InitializeComponent();
+            string SQL = "SELECT * FROM MOCK_DATA;";
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
